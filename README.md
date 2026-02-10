@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://t.me/bangladeshhackinghelpcenter"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
+<a href="https://t.me/bangladeshhackinghelpcenter"><img title="Made in BANGLADESH" src="https://img.shields.io/badge/MADE%20IN-BANGLADESH-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
 
 <a name="readme-top"></a>
@@ -228,5 +228,5 @@ ApkPatcher Other Patch Flags
 
 [![Telegram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/bangladeshhackinghelpcenter)
   </a><p>
-[![Telegram](https://img.shields.io/badge/TELEGRAM-OWNER-red?style=for-the-badge&logo=telegram)](https://t.me/bangladeshhackinghelpcenter)
+[![Telegram](https://img.shields.io/badge/TELEGRAM-OWNER-red?style=for-the-badge&logo=telegram)](https://t.me/RihanAhmed404)
 </p>
