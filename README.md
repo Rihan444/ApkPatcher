@@ -9,7 +9,7 @@
 
 
 <p align="center"> 
-<a href="https://t.me/bangladeshhackinghelpcenter"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=35&pause=1000&color=F74848&center=true&vCenter=true&random=false&width=435&lines=BHHC ApkPatcher" /></a>
+<a href="https://t.me/bangladeshhackinghelpcenter"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=35&pause=1000&color=F74848&center=true&vCenter=true&random=false&width=435&lines=ApkPatcher" /></a>
  </p>
 
 
