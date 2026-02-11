@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "ApkPatcherX"
 dynamic = ["version"]
 authors = [
-  { name = "RK_TECHNO_INDIA", email = "TechnoIndian786@gmail.com" }
+  { name = "Rihan_Ahmed", email = "bhhcinfinitytech@gmail.com" }
 ]
 
 description = "Smali Patcher ( Bypass 𒁍 SSL & Flutter SSL, VPN, USB Debugging, Screen Restrict, One Device Login, Spoof Info & Package Detection, Ads, AES Logs Inject, TG Patch, Pine HooK )"
@@ -32,8 +32,8 @@ classifiers = [
 ]
 
 [project.scripts]
-ApkPatcher = "ApkPatcher.APK_PATCHER:RK_Techno_IND"
-apkpatcher = "ApkPatcher.APK_PATCHER:RK_Techno_IND"
+ApkPatcher = "ApkPatcher.APK_PATCHER:Rihan_Ahmed"
+apkpatcher = "ApkPatcher.APK_PATCHER:Rihan_Ahmed"
 
 [tool.setuptools]
 include-package-data = true
@@ -52,9 +52,9 @@ package-data = { ApkPatcher = [
 
 
 [project.urls]
-Homepage = "https://github.com/TechnoIndian/ApkPatcher"
-Repository = "https://github.com/TechnoIndian/ApkPatcher.git"
-Issues = "https://github.com/TechnoIndian/ApkPatcher/issues"
+Homepage = "https://github.com/Rihan444/ApkPatcher"
+Repository = "https://github.com/Rihan444/ApkPatcher.git"
+Issues = "https://github.com/Rihan444/ApkPatcher/issues"
 
 [tool.setuptools.dynamic]
 version = { file = "VERSION" }
