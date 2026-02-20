@@ -91,44 +91,8 @@ F = FileCheck(); F.Set_Path(); F.F_D()
 Date = M.datetime.now().strftime('%d/%m/%y')
 print(f"{C.OG}{f'v{__version__}':>22}")
 
-# Logo
-class C:
-    CYAN = '\033[96m'
-    BLUE = '\033[94m'
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    RED = '\033[91m'
-    BOLD = '\033[1m'
-    END = '\033[0m'
+print("Welcome BHHC APK Patcher")
 
-def print_banner():
-    # উইন্ডোজের জন্য কালার সাপোর্ট ঠিক করা
-    if os.name == 'nt': os.system('color')
-    
-    # 100% Mathematically aligned string (Width = exactly 79 chars)
-    banner = f"""
-{C.BLUE} ══════════════════════════════════════════════════════════════════════════════{C.END}
-{C.GREEN}        ██               ██       {C.END}{C.RED}  ▐█ SYSTEM OVERRIDE PROTOCOL ENGAGED █▌     {C.END}
-{C.GREEN}      ████▄   ▄▄▄▄▄▄▄   ▄████     {C.END}{C.BLUE}  ────────────────────────────────────────   {C.END}
-{C.GREEN}         ▀▀█▄█████████▄█▀▀        {C.END}{C.CYAN}  [⚙] CORE ENGINE   :{C.END}{C.GREEN} ONLINE & READY         {C.END}
-{C.GREEN}           █████████████          {C.END}{C.CYAN}  [⚙] TARGET SYS    :{C.END}{C.YELLOW} ANDROID OS (APK)       {C.END}
-{C.GREEN}           ██{C.RED}▀▀▀{C.GREEN}███{C.RED}▀▀▀{C.GREEN}██          {C.END}{C.CYAN}  [⚙] INJECT MODULE :{C.END}{C.YELLOW} SSL BYPASS ENGINE      {C.END}
-{C.GREEN}           ██   ███   ██          {C.END}{C.CYAN}  [⚙] SECURE STATUS :{C.END}{C.GREEN} BYPASS SUCCESSFUL [OK] {C.END}
-{C.GREEN}           █████{C.RED}▀▄▀{C.GREEN}█████          {C.END}{C.CYAN}  [⚙] ARCHITECTURE  :{C.END}{C.YELLOW} UNIVERSAL COMPAT.      {C.END}
-{C.GREEN}            ███████████           {C.END}{C.BLUE}  ────────────────────────────────────────   {C.END}
-{C.GREEN}    ▄▄▄██  █{C.RED}▀█▀{C.GREEN}█  ██▄▄▄           {C.END}{C.BOLD}{C.BLUE}           ►► BHHC Apk Patcher ◄◄            {C.END}
-{C.GREEN}    ▀▀██           ██▀▀           {C.END}{C.YELLOW}     ADVANCED DECRYPTION FRAMEWORK v3.0      {C.END}
-{C.GREEN}      ▀▀           ▀▀             {C.END}                                             
-{C.BLUE} ╔════════════════════════════════════════════════════════════════════════════╗{C.END}
-{C.BLUE} ║ {C.BOLD}Channel:{C.END}{C.CYAN} Bangladesh Hacking Help Center                                    {C.BLUE}║{C.END}
-{C.BLUE} ║ {C.BOLD}Owner:  {C.END}{C.CYAN} Rihan Ahmed                                                       {C.BLUE}║{C.END}
-{C.BLUE} ║ {C.BOLD}Status: {C.END}{C.GREEN} Undetected / Fully Automated                                      {C.BLUE}║{C.END}
-{C.BLUE} ╚════════════════════════════════════════════════════════════════════════════╝{C.END}
-{C.BLUE} ══════════════════════════════════════════════════════════════════════════════{C.END}
-"""
-    print(banner)
-
-print_banner()
 
 # ---------------- Target All Classes Folder ---------------
 def Find_Smali_Folders(decompile_dir, isAPKEditor, isPine_Hook):
@@ -276,7 +240,7 @@ def RK_Techno_IND():
 
     print(f'\n{C.S} Time Spent {C.E} {C.G}︻デ═一 {C.PN}{M.time.time() - start_time:.2f} {C.CC}Seconds {C.G} ✔\n')
 
-    print(f'\nThanks For Using BHHC Apk Patcher\nJoin Our Channel Bangladesh Hacking Help Center\n')
+    print(f'\n Thank You{C.CC} For Using {C.OG}{C.CC} \n BHHC Patcher \n')
 
     if M.os.name == 'posix':
         M.subprocess.run(['termux-wake-unlock'])
