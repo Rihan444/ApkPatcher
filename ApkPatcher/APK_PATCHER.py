@@ -23,6 +23,7 @@ import webbrowser
 import threading
 import os
 import sys
+
 def open_bhhc_group():
     try:
         webbrowser.open('https://facebook.com/groups/bhhchackers/')
@@ -91,16 +92,7 @@ F = FileCheck(); F.Set_Path(); F.F_D()
 Date = M.datetime.now().strftime('%d/%m/%y')
 print(f"{C.OG}{f'v{__version__}':>22}")
 
-# Logo
-class C:
-    CYAN = '\033[96m'
-    BLUE = '\033[94m'
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    RED = '\033[91m'
-    BOLD = '\033[1m'
-    END = '\033[0m'
-
+# Logo Banner Function
 def print_banner():
     # উইন্ডোজের জন্য কালার সাপোর্ট ঠিক করা
     if os.name == 'nt': os.system('color')
